@@ -1,0 +1,21 @@
+@media only screen and ( max-width: 1920px)and(min-width: 300px) {
+    .nav{
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content:space-around;
+        align-items:center;
+        margin:auto;
+        width:100%;
+        max-width:1920px;
+        background-color:white;
+        margin-top:20px;
+    }
+    .nav a{
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     .nav img{
+         width: 50%;
+     }      
+}
